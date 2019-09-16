@@ -9,14 +9,18 @@
         }
     ],
     "require": {
-        "php": ">=5.5.0",
-        "illuminate/database": "^5",
-        "illuminate/queue": "^5",
-        "illuminate/support": "^5",
-        "graham-campbell/flysystem": "^3 || ^4 || ^5"
+        "php": "^7.2",
+        "illuminate/database": "^6.0",
+        "illuminate/queue": "^6.0",
+        "illuminate/support": "^6.0",
+        "graham-campbell/flysystem": "^6.0"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
     },
     "conflict": {
-        "laravel/framework": "<5.4.0"
+        "laravel/framework": "<6.0"
     },
     "suggest": {
         "league/flysystem-cached-adapter": "Required for Flysystem caching of remote disks"
